@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+html.light{
+    --color-bg: aliceblue;
+    --color: black;
+}
+
+html.dark{
+    --color-bg: black;
+    --color: aliceblue;
+}
+
+body{
+    background-color: var(--color-bg);
+    color: var(--color);
+}
+
+container{
+    
+}

@@ -11,10 +11,46 @@ html.dark{
 }
 
 body{
+    font-family: "SN Pro",sans-serif;
+    font-weight: 400;
     background-color: var(--color-bg);
     color: var(--color);
+    margin: 10;
+    padding: 10;
 }
 
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightMenu{
+    display: flex;
+    align-items: center;
+}
+.rightMenu ul{
+    display: flex;
+    list-style: none;
+}
+.rightMenu ul li{
+    margin: 5px;
+    padding:  5px;
+}
+
+
 container{
-    
 }
